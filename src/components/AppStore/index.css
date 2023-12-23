@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+}
+
+.app-store-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  max-width: 1110px;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+  max-width: 240px;
+  border: 1px solid #7b8794;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 14px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-right: 14px;
+}
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    max-width: 480px;
+  }
+}
+
+.input-search {
+  border: none;
+  flex-grow: 1;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+  outline: none;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.tabs-container {
+  display: flex;
+  align-items: flex-end;
+  padding: 0px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs-container {
+    margin-top: 48px;
+  }
+}
+
+.apps-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.apps-container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
